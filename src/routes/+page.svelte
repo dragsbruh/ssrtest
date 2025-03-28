@@ -10,7 +10,7 @@
 
   onMount(() => {
     updateSecondsAgo();
-    const interval = setInterval(updateSecondsAgo, 1000);
+    const interval = setInterval(updateSecondsAgo, 500);
     return () => clearInterval(interval);
   });
 </script>
